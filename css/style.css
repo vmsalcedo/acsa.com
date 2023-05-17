@@ -2,13 +2,24 @@
 
 
 .header {
-    background-color: blue;
-   
+    background-color: #004D94;
+  
 
   }
 
+  .header-acsa{
+    position: "" ;
+    z-index: -1;
+
+  }
+
+.imagen-logo-acsa{
+   width: 120px ;
+}
+
 .footer{
-    background-color: blue;
+    background-color: #004D94;
+    /* height: 5vh; */
     position: relative;
     color : white;
     
@@ -19,4 +30,9 @@
 .link-acsa{
   text-decoration: none;
   color: black;
+}
+
+.xxx{
+  position:relative;
+
 }
