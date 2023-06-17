@@ -3,8 +3,8 @@
 :root {
   --first-color:rgb(29, 94, 169);
   --first-alpha-color:rgb(29, 94, 169, 0.75);
-  --second-color:rgb(74, 193, 239);
-  --first-alpha-color:rgb(74, 193, 239, 0.75);
+  --second-color:rgb(74, 193, 239); 
+  --second-alpha-color:rgb(74, 193, 239, 0.75);
 
   --bg-color:rgb(29, 94, 169);
   --bg-alpha-color:rgb(29, 94, 169, 0.75);
@@ -114,3 +114,18 @@
     
   }
 
+  .nav-busqueda{
+    background-color: var(--second-color);
+  }
+
+  .nav-busqueda div div span{
+    color: var(--first-color)!important;
+  }
+  .btn-outline-success{
+    color: white!important;
+    background-color:var(--first-color)!important;
+  }
+  .btn-outline-success:hover{
+    background-color: crimson!important;
+    color: var(--first-color)
+  }
