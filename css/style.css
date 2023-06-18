@@ -17,8 +17,6 @@
 
 
 
-
-
 /*
   .header-acsa{
     position: "" ;
@@ -64,14 +62,14 @@
 } */
 
 
-.header1{
+.header-pc{
   background-color: var(--bg-color);
   
 
 
 
 }
-.header2{
+.header-mv{
   
   display: none;
   
@@ -108,7 +106,7 @@
 
   .nav-item:hover{
     background-color: var(--first-alpha-color);
-    border-radius:;
+    border-radius:10%;
     border: 1px solid white;
     
     
