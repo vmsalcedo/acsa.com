@@ -100,13 +100,13 @@
   .nav-busqueda div div span{
     color: var(--first-color)!important;
   }
-  .btn-outline-success{
+  .btn-outline-primary{
     color: white!important;
     background-color:var(--first-color)!important;
   }
 
 
-  .btn-outline-success:hover{
+  .btn-outline-primary:hover{
     background-color: crimson!important;
     
   }
@@ -136,4 +136,3 @@
   }
   */
 
-  
