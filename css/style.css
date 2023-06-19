@@ -3,6 +3,7 @@
 :root {
   --first-color:rgb(29, 94, 169);
   --first-alpha-color:rgb(29, 94, 169, 0.75);
+  /* --second-color:#657A99; */
   --second-color:rgb(74, 193, 239); 
   --second-alpha-color:rgb(74, 193, 239, 0.75);
 
@@ -136,3 +137,6 @@
   }
   */
 
+/* .banner{
+  height: 200px;
+} */
