@@ -36,16 +36,10 @@
   }
 }
 
-/*
-  .header-acsa{
-    position: "" ;
-    z-index: -1;
 
-  }
+  
 
-.imagen-logo-acsa{
-   width: 120px ;
-}
+
 
 .footer{
     background-color: #004D94;
@@ -62,10 +56,7 @@
   color: black;
 }
 
-.xxx{
-  position:relative;
 
-}
 
 
 
@@ -74,11 +65,7 @@
   font-size: 13px;
 }
 
-.mani{
-  text-decoration: none;
-  color: rgb(107, 6, 6) !important ;
-  font-size:10px;
-} */
+
 
 
 
@@ -118,4 +105,32 @@
   .btn-outline-success:hover{
     background-color: crimson!important;
     
+  }
+
+
+  /* .bg1-carousel{
+    background-image: url(../images/image2px.webp);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    
+  }
+  .bg2-carousel{
+    background-image: url(../images/image1px.webp);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .bg3-carousel{
+    background-image: url(../images/image3px.webp);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  } */
+
+  .slide img{
+    height:fit-content;
   }
