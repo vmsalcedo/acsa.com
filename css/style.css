@@ -34,6 +34,10 @@
     display:inline;
     background-color: var(--bg-color);   
   }
+
+
+
+
 }
 
 
@@ -129,8 +133,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  } */
-
-  .slide img{
-    height:fit-content;
   }
+  */
+
+  
