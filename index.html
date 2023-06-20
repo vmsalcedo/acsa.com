@@ -28,7 +28,7 @@
     
   </head>
   <body>
-    <header class="navbar-expand-lg sticky-top header-pc">
+    <header class="navbar-expand-md sticky-top header-pc">
       <nav class="navbar bg-body-tertiary bg-color-primario ">
         <div class="container">
           <a class="navbar-brand acsa" href="#"
@@ -318,65 +318,82 @@
 <!-- ------------------------- FIN  HEADER MOVIL--------------- -->
 
 
-    
-
-    <div id="carouselExampleCaptions" class="carousel slide"  data-bs-ride="true">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
+    <!-- CAROUSEL  -->
+    <!-- CAROUSEL  -->
+    <!-- CAROUSEL  -->
 
 
-      <div class="carousel-inner">
-        <div class="carousel-item active bg1-carousel ">
-          <a href="https://www.google.com"><img src="images/image3px.webp" class="d-block w-100 " alt="..."></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide"  data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+  
+  
+        <div class="carousel-inner">
+          <div class="carousel-item active bg1-carousel  ">
+            <a href="https://www.google.com"><img src="images/image3px.webp" class="d-block w-100  " alt="..."></a>
+            <div class="carousel-caption d-none d-md-block text-slider">
+              <div class="contenedor-carousel">
+                <h5>TEXTO ACSA</h5>
+                <p class="my-5">texto de slider imagen 1</p>
+                <a href="" class="btn btn-primary my-5">Click ACA</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg2-carousel ">
+            <img src="images/image1px.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-slider">
+              
+              <h5>Second slide label</h5>
+
+              <img src="images/ACSA-WEB.png" alt="">
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item bg3-carousel ">
+            <img src="images/image2px.webp " class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
           </div>
         </div>
-        <div class="carousel-item bg2-carousel ">
-          <img src="images/image1px.webp" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item bg3-carousel ">
-          <img src="images/image2px.webp " class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
+        
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    
-    
-  </div>
+      
+      </div>
 
 
-      <!-- Novedades -->
+    </div>
+
+
+   
+
+
+      <!-- PRODUCTOS DESTACADOS-->
 
       <div class="container">
-        <h2>Novedades</h2>
+        <h2 class="text-center pt-5 pb-2"> Productos Destacados</h2>
 
         <div class="container">
           <div class="row">
             <div
               class="col-12 col-md-6 col-lg-4 col-xl-3 mt-2 d-flex justify-content-center"
             >
-              <div class="card" style="width: 12rem">
+              <div class="card" style="width: 20rem">
                 <img src="images/crcx250.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h6 class="card-title">
@@ -396,7 +413,7 @@
             <div
               class="col-12 col-md-6 col-lg-4 col-xl-3 mt-2 d-flex justify-content-center"
             >
-              <div class="card" style="width: 12rem">
+              <div class="card" style="width: 20rem">
                 <img src="images/crcx250.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h6 class="card-title">
@@ -414,7 +431,7 @@
             <div
               class="col-12 col-md-6 col-lg-4 col-xl-3 mt-2 d-flex justify-content-center"
             >
-              <div class="card" style="width: 12rem">
+              <div class="card" style="width: 20rem">
                 <img src="images/crcx250.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h6 class="card-title">
@@ -432,89 +449,7 @@
             <div
               class="col-12 col-md-6 col-lg-4 col-xl-3 mt-2 d-flex justify-content-center"
             >
-              <div class="card" style="width: 12rem">
-                <img src="images/crcx250.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    LIMPIA CONTACTO ELECTRICO QD 82130 1130 OZ SPRAY
-                  </h6>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">CRC</h6>
-                  <p class="card-text mb-2 text-body-secondary">
-                    Limpiador de Precision
-                  </p>
-                  <p class="card-text mb-2 text-body-secondary">Stock</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <h2>Novedades</h2>
-
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-12 col-md-6 col-lg-4 col-xl-3 mt-2 d-flex justify-content-center"
-            >
-              <div class="card" style="width: 12rem">
-                <img src="images/crcx250.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    LIMPIA CONTACTO ELECTRICO QD 82130 1130 OZ SPRAY
-                  </h6>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">
-                    CRCsssss
-                  </h6>
-                  <p class="card-text mb-2 text-body-secondary">
-                    Limpiador de Precision
-                  </p>
-                  <p class="card-text mb-2 text-body-secondary">Stock</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-12 col-md-6 col-lg-4 col-xl-3 mt-2 d-flex justify-content-center"
-            >
-              <div class="card" style="width: 12rem">
-                <img src="images/crcx250.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    LIMPIA CONTACTO ELECTRICO QD 82130 1130 OZ SPRAY
-                  </h6>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">CRC</h6>
-                  <p class="card-text mb-2 text-body-secondary">
-                    Limpiador de Precision
-                  </p>
-                  <p class="card-text mb-2 text-body-secondary">Stock</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-12 col-md-6 col-lg-4 col-xl-3 mt-2 d-flex justify-content-center"
-            >
-              <div class="card" style="width: 12rem">
-                <img src="images/crcx250.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h6 class="card-title">
-                    LIMPIA CONTACTO ELECTRICO QD 82130 1130 OZ SPRAY
-                  </h6>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">CRC</h6>
-                  <p class="card-text mb-2 text-body-secondary">
-                    Limpiador de Precision
-                  </p>
-                  <p class="card-text mb-2 text-body-secondary">Stock</p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-12 col-md-6 col-lg-4 col-xl-3 mt-2 d-flex justify-content-center"
-            >
-              <div class="card" style="width: 12rem">
+              <div class="card" style="width: 20rem">
                 <img src="images/crcx250.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h6 class="card-title">
@@ -531,24 +466,96 @@
           </div>
         </div>
       </div>
+
+
+
+
+
+
+      <!-- carousel 2 -->
+
+    <div class="container my-5">
+        <h2 class="text-center mb-5"> Nuestras Marcas</h2>
+
+
+      <div id="carouselExampleCaptions2" class="carousel slide "  data-bs-ride="true">
+        
+  
+  
+        <div class="carousel-inner">
+          <div class="carousel-item active mb-5 ">
+
+            
+            <div class="row ">
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+            </div>
+
+            <div class="carousel-caption d-none d-md-block text-slider"></div>
+         
+          </div>
+          <div class="carousel-item  mb-5 ">
+            <div class="row ">
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+            </div>
+          
+          </div>
+          <div class="carousel-item  mb-5 ">
+            <div class="row ">
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+              <div class="col-4"><img src="images/a4.webp" class="img-fluid" alt="..."></div>
+            </div>
+           
+          </div>
+        </div>
+        
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      
+      
+      </div>
+     </div>
+     
+     <!-- FIn carousel 2 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
       <!-- BANER -->
 
-      <div class="container-fluid g-0 banner" >
+      <div class="container g-0 banner" >
         <img src="images/banner.jpeg" class="img-fluid" alt="">
 
 
       </div>
-    
 
-
-    
-
-
-
-  
 
 
 
@@ -592,3 +599,5 @@
      
   </body>
 </html>
+
+
