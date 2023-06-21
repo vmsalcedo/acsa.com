@@ -14,11 +14,19 @@
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+
 .bg-color-primario{
   background-color: var(--first-color);
 }
  .bg.color-secundario{
   background-color: var(--second-color);
+ }
+
+ .bg.color-primario-alfa{
+  background-color: var(--first-alpha-color);
  }
 
 
@@ -27,6 +35,8 @@
 }
 
 /* media query 1 */
+/* media query 1 */
+/* media query 1 */
 
 @media (max-width:992px){
   .header-pc{
@@ -34,7 +44,7 @@
   }
   .header-mv{
     display:inline;
-    background-color: var(--bg-color);   
+     
   }
 
   .marcas-carousel{
@@ -49,8 +59,13 @@
   }
 
 
-  
+  .header-mv nav div div a img{
+    height: 9vh;
+  }
 
+  .navbar.navbar-scroll {
+    background-color: red; /* Cambia el color de fondo según tus preferencias */
+  }
 
 }
 
@@ -145,29 +160,29 @@
   }
 
 
-  /* .bg1-carousel{
-    background-image: url(../images/image2px.webp);
-    min-height: 50vh;
+  .bg1-carousel{
+    background-image: url(../images/xx.jpeg);
+    min-height: 85vh;
     background-size: cover;
     background-position: center;
-    background-attachment:fixed;
+    
     
   }
   .bg2-carousel{
-    background-image: url(../images/image1px.webp);
-    min-height: 50vh;
+    background-image: url(../images/xxx2.jpeg);
+    min-height: 85vh;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+   
   }
   .bg3-carousel{
-    background-image: url(../images/image3px.webp);
-    min-height: 50vh;
+    background-image: url(../images/xxx3.jpeg);
+    min-height: 85vh;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    
   }
-  */
+ 
 
 /* .banner{
   height: 200px;
@@ -196,3 +211,67 @@
 
 
 
+.nav-acsa{
+  position:;
+  z-index: 3;
+
+}
+
+.slider-acsa{
+  position:absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2; 
+
+}
+
+
+.marcasPropias-acsa{
+  margin-top:76vh;
+  height: 20vh;
+  background-color: var(--bg-color);
+}
+
+.marcasPropias-acsa p{
+  color: white;
+  border: solid 1px white;
+  font-size:30px;
+}
+
+
+
+ .custom-icon{
+  color: white;
+  font-size: 80px;
+ }
+
+ /* iconos del nav pc  */
+
+ .icono-redes{
+  color: white;
+  font-size: 30px;
+ }
+
+ .navbar-nav {
+  font-size: 18px; /* Cambia el valor para ajustar el tamaño del texto */
+  
+}
+.letra-nav{
+  color: white!important;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 2px;
+}
+
+.navbar.navbar-scroll {
+  background-color: var(--first-alpha-color); /* Cambia el color de fondo según tus preferencias */
+}
+
+
+.nav-acsa nav div div{
+  height: 6vh;
+}
+.nav-acsa nav div div a img{
+  height: 6vh;
+}
