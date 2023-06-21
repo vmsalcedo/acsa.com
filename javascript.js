@@ -9,3 +9,15 @@ window.addEventListener('scroll', function() {
       navbar.classList.remove('navbar-scroll');
     }
   });
+
+
+  window.addEventListener('scroll', function() {
+    var myNavbar = document.getElementById('myNavbar');
+    var scrollPosition = window.scrollY || window.pageYOffset;
+  
+    if (scrollPosition > 0) {
+      myNavbar.classList.add('navbar-scrolled');
+    } else {
+      myNavbar.classList.remove('navbar-scrolled');
+    }
+  });

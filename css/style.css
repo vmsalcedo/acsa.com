@@ -2,7 +2,7 @@
 
 :root {
   --first-color:rgb(29, 94, 169);
-  --first-alpha-color:rgb(29, 94, 169, 0.75);
+  --first-alpha-color:rgb(29, 94, 169, 0.6);
   /* --second-color:#657A99; */
   --second-color:rgb(74, 193, 239); 
   --second-alpha-color:rgb(74, 193, 239, 0.75);
@@ -39,6 +39,7 @@
 /* media query 1 */
 
 @media (max-width:992px){
+ 
   .header-pc{
     display:none ;
   }
@@ -53,19 +54,40 @@
   }
 
   
-  .carousel-item img {
-    width:auto ;
-    height: 200px;
-  }
 
 
+  /* icono de acsa en movil  */
   .header-mv nav div div a img{
-    height: 9vh;
+    height: 8vh;
   }
 
-  .navbar.navbar-scroll {
-    background-color: red; /* Cambia el color de fondo según tus preferencias */
+
+  .bg1-carousel{
+    
+    min-height: 60vh !important;
+    background-size: contain;
+    background-position: center;
+    
+    
   }
+  .bg2-carousel{
+    
+    min-height: 60vh !important;
+    background-size: contain;
+    background-position: center;
+    
+    
+  }
+
+  .bg3-carousel{
+    
+    min-height: 60vh !important;
+    background-size: contain;
+    background-position: center;
+    
+    
+  }
+
 
 }
 
@@ -82,6 +104,7 @@
     width:auto;
   }
 
+ 
 
 }
 
@@ -154,15 +177,13 @@
   }
 
 
-  .btn-outline-primary:hover{
-    background-color: crimson!important;
-    
-  }
-
+  
+/* SLIDER PRINCIPAL  */
+/* SLIDER PRINCIPAL  */
 
   .bg1-carousel{
     background-image: url(../images/xx.jpeg);
-    min-height: 85vh;
+    min-height: 90vh;
     background-size: cover;
     background-position: center;
     
@@ -170,14 +191,14 @@
   }
   .bg2-carousel{
     background-image: url(../images/xxx2.jpeg);
-    min-height: 85vh;
+    min-height: 90vh;
     background-size: cover;
     background-position: center;
    
   }
   .bg3-carousel{
     background-image: url(../images/xxx3.jpeg);
-    min-height: 85vh;
+    min-height: 90vh;
     background-size: cover;
     background-position: center;
     
@@ -231,11 +252,11 @@
 .marcasPropias-acsa{
   margin-top:76vh;
   height: 20vh;
-  background-color: var(--bg-color);
+  background-color: #f0f3ef;
 }
 
 .marcasPropias-acsa p{
-  color: white;
+  color: rgb(126, 10, 10);
   border: solid 1px white;
   font-size:30px;
 }
@@ -243,7 +264,7 @@
 
 
  .custom-icon{
-  color: white;
+  color: rgb(114, 14, 14);
   font-size: 80px;
  }
 
@@ -262,7 +283,10 @@
   color: white!important;
   font-family: 'Kanit', sans-serif;
   letter-spacing: 2px;
+  font-size: 15px;
 }
+
+
 
 .navbar.navbar-scroll {
   background-color: var(--first-alpha-color); /* Cambia el color de fondo según tus preferencias */
@@ -275,3 +299,21 @@
 .nav-acsa nav div div a img{
   height: 6vh;
 }
+.barra-busqueda{
+  background-color: var(--first-alpha-color);
+}
+
+/* barra de busqueda pc cambio de color */
+.navbar {
+  transition: background-color 0.9 ease-in-out; /* Agrega una transición suave para el cambio de color */
+}
+
+.navbar-scrolled {
+  background-color:var(--first-alpha-color) ; /* Cambia el color de fondo según tus preferencias */
+}
+
+.btn-acsa{
+  background-color: #0f3b68;
+  color:#ffffff;
+}
+/* barra de busqueda */
