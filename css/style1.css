@@ -85,6 +85,12 @@
 
 
 
+  .card img{
+    
+    width: 220px;
+    height: auto;
+  }
+
 
   .footer-acsa {
     background-color: rgb(39, 9, 104);
@@ -99,7 +105,8 @@
     border-radius: none !important;
   }
    /* estilo del boton presionado  */
-  .accordion-button{
+  
+   .accordion-button{
     background-color: rgb(39, 9, 104)!important;
     color: white !important;
     box-shadow: none !important; /* Para quitar el borde sombreado al presionar */
@@ -135,7 +142,8 @@
     display: inline;
    
   }
-
+  
+/* background cuando baja el scroll */
   .navbar.navbar-scroll {
     background-color: var(--first-alpha-color); /* Cambia el color de fondo según tus preferencias */
   }
@@ -151,6 +159,12 @@
     letter-spacing: 1px;
     font-size: 14px;
   }
+
+  /* Iconos de redes sociales en pc  */
+  .icono-redes{
+    color: white;
+    font-size: 20px; /*cambia el tamaño */
+   }
 
   /* barra de busqueda scroll  */
   .navbar {
@@ -204,10 +218,10 @@
 
   }
 
-
+ 
 
   .btn-carousel{
-   
+    display: inline;
     background: rgb(151, 22, 22);
     cursor: pointer;
     border: none;
@@ -223,6 +237,7 @@
     left: 250px;
     right: 0;
     bottom: 0;
+    
     
   }
 
@@ -262,9 +277,40 @@
 
   
   .productosDestacados-acsa{
-    margin-top: 800px;
+    margin-top: 700px;
 
   }
+
+
+  .banner-3 {
+    background-color: blue;
+    padding: 20px ;
+  }
+
+  }
+
+
+
+
+  @media (min-width: 992px){
+     /* Logo de acsa en pc  */
+  .nav-acsa nav div div a img{
+    height: 8vh;
+  }
+
+  .letra-nav{
+   
+   
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+
+  /* Iconos de redes sociales en pc  */
+  .icono-redes{
+    color: white;
+    font-size: 30px; /*cambia el tamaño */
+   }
+
 
   }
 
