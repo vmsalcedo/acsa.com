@@ -79,6 +79,49 @@
 
   }
 
+  .btn-carousel{
+    display: none;
+  }
+
+
+
+
+  .footer-acsa {
+    background-color: rgb(39, 9, 104);
+  }
+
+  .footer-acsa button{
+    background-color: rgb(39, 9, 104);
+  }
+
+  .accordion-item{
+    background-color: rgb(39, 9, 104);
+    border-radius: none !important;
+  }
+   /* estilo del boton presionado  */
+  .accordion-button{
+    background-color: rgb(39, 9, 104)!important;
+    color: white !important;
+    box-shadow: none !important; /* Para quitar el borde sombreado al presionar */
+   
+  }
+
+  .collapsed{
+    background-color: rgb(39, 9, 104)!important;
+    border-radius: none !important;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 /* media a partir de 766px   */
 
@@ -160,10 +203,67 @@
     background-position: center;
 
   }
+
+
+
+  .btn-carousel{
+   
+    background: rgb(151, 22, 22);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    letter-spacing: 1px;
+
+    position: relative;
+    
+    top: 600px;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    
+  }
+
+
+  .btn-carousel:hover{
+    background-color: blue;
+  }
+
+ /* .btn-carousel::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(45deg, red,blue,deeppink,blue, red,blue,deeppink,blue);
+    background-size: 800%;
+    filter: blur(10px);
+    
+    animation: glowing 20s linear infinite;
+
+ }
+ @keyframes glowing{
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 400% 0;
+  }
+  100%{
+    background-position: 0 0;
+  }
+
+ } */
+
+
   
   .productosDestacados-acsa{
     margin-top: 800px;
-    
+
   }
 
   }

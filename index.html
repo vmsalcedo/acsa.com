@@ -111,10 +111,11 @@
           </button>
           <div class="d-flex justify-content-center">
             <a class="navbar-brand" href="#"><img src="images/ACSA-WEB.png" class="img-fluid" alt=""></a>
+            
           </div>
 
           
-
+          <!-- canvas lado izquierdo  -->
           <div
             class="offcanvas offcanvas-start  "
             data-bs-scroll="true"
@@ -123,6 +124,7 @@
             aria-labelledby="offcanvasWithBothOptionsLabel"
           >
             <div class="offcanvas-header bg-color-primario">
+              <div class="offcanvas-title text-white" id="offcanvasNavbarLabel" >
               <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
                 <img
               class="imagen-logo-acsa"
@@ -132,7 +134,10 @@
               width="100"
           />
               </h5>
-              
+
+              <h6 class="pt-2" >TU ALIADO DE CONFIANZA </h6>
+            </div>
+
               <button
                 type="button"
                 class="btn-close "
@@ -150,15 +155,13 @@
                     >Productos</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li class="nav-item ">
+                  <a class="nav-link text-white" href="#">Cotizador</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li class="nav-item ">
+                  <a class="nav-link text-white" href="#">Contacto</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li>
+                
               </ul>
             </div>
           </div>
@@ -181,7 +184,7 @@
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div class="offcanvas-header bg-color-primario">
-              <div class="offcanvas-title text-white id="offcanvasNavbarLabel">
+              <div class="offcanvas-title text-white" id="offcanvasNavbarLabel">
                 <img
               class="imagen-logo-acsa d-block"
               src="images/ACSA-WEB.png"
@@ -297,14 +300,30 @@
         
         <div class="carousel-inner">
           <div class="carousel-item active bg1-carousel   ">
+            
+            <div class="">
+              <button class="btn-carousel">
+                CONOCE MAS ACA
+              </button>
+            </div>
                          
           </div>
           
           <div class="carousel-item bg2-carousel ">
+            <div class="">
+              <button class="btn-carousel">
+                CONOCE MAS ACA
+              </button>
+            </div>
             
           </div>
           
           <div class="carousel-item bg3-carousel ">
+            <div class="">
+              <button class="btn-carousel">
+                CONOCE MAS ACA
+              </button>
+            </div>
             
           </div>
         </div>
@@ -352,6 +371,8 @@
 
       <div class="container productosDestacados-acsa " >
         <h2 class="text-center pt-5  pb-5" data-aos="fade-up" > Productos Destacados   </h2>
+        
+      
 
         <div class="container">
           <div class="row">
@@ -437,7 +458,7 @@
 
 
 
-
+      <div class="btn-carousel">asdasd</div>
 
 
 
@@ -528,7 +549,8 @@
 
       <!-- BANER -->
 
-      <div class="container-fluid g-0 banner" >
+      <div class="container-fluid g-0 banner"data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" >
         <img src="images/banner.jpeg" class="img-fluid" alt="">
 
 
@@ -536,28 +558,96 @@
 
 
 
+      <footer class="container-fluid mt-5 footer-acsa">
 
-    <footer class="sticky-bottom footer">
-      <nav class="  ">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 mt-2 col-md-3 d-flex">
-              <div><i class="bi bi-whatsapp"></i></div>
-              <p class="ps-2 fs-6">Contacta con un Asesor</p>
-            </div>
-            <div class="col-6 mt-2 col-md-3 d-flex">
-              <div><i class="bi bi-telephone"></i></div>
-              <p class="ps-2 fs-6">+51 311 6900</p>
-            </div>
+        <div class="accordion  accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header ">
+              <button class="accordion-button collapsed "  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Nuestros Locales
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div>
+                  <p class="">Local Comercial</p>
+                  <p>Jr Azangaro 1008 Cercado de Lima</p>
+                </div>
+                <div>
+                  <p class="">Oficinas</p>
+                  <p>Jr Bambas 451 off. 201  Cercado de Lima</p>
+                </div>
+                <div>
+                  <p class="">Almacén</p>
+                  <p>Los Alamos Mza. M Lote 8 (Shangrila)
+                    Puente Piedra</p>
+                </div>
 
-            <div class="col-6 mt-2 col-md-3 d-flex">
-              <div><i class="bi bi-envelope"></i></div>
-              <p class="ps-2 fs-6">ventas@acsa.com.pe</p>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item footer-acsa">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                ACORDION LIBRE
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, architecto. Quidem, ex cupiditate sit voluptatum soluta, est amet quae rem eum maiores, iste unde? Vero dolore incidunt eum earum maiores.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Atencion al Cliente
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+
+                <div>
+                  <a href="#"><p class="">Politicas de cambios y devoluciones</p></a>
+                  <a href="#"><p class="">Politicas de calidad</p></a>
+                  <a href="#"><p class="">Terminos y condiciones</p></a>
+                  <a href="#"><p class="">Libro de reclamaciones</p></a>
+                  <a href="#"><p class="">Mas politicas de Felipe</p></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
-    </footer>
+        
+
+
+
+
+
+      </footer>
+
+  <!-- 
+      <footer class="sticky-bottom footer">
+        <nav class="  ">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 mt-2 col-md-3 d-flex">
+                <div><i class="bi bi-whatsapp"></i></div>
+                <p class="ps-2 fs-6">Contacta con un Asesor</p>
+              </div>
+              <div class="col-6 mt-2 col-md-3 d-flex">
+                <div><i class="bi bi-telephone"></i></div>
+                <p class="ps-2 fs-6">+51 311 6900</p>
+              </div>
+
+              <div class="col-6 mt-2 col-md-3 d-flex">
+                <div><i class="bi bi-envelope"></i></div>
+                <p class="ps-2 fs-6">ventas@acsa.com.pe</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </footer> -->
 
 
 
