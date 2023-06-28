@@ -78,3 +78,93 @@
     background-position: center;
 
   }
+
+
+/* media a partir de 766px   */
+
+  @media (min-width: 766px) {
+    
+  .header-mv {
+  display: none;
+  }
+
+  .header-pc{
+    display: inline;
+   
+  }
+
+  .navbar.navbar-scroll {
+    background-color: var(--first-alpha-color); /* Cambia el color de fondo según tus preferencias */
+  }
+
+ /* Logo de acsa en pc  */
+  .nav-acsa nav div div a img{
+    height: 6vh;
+  }
+
+  .letra-nav{
+    color: white!important;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+
+  /* barra de busqueda scroll  */
+  .navbar {
+    transition: background-color 0.9 ease-in-out; /* Agrega una transición suave para el cambio de color */
+  }
+  
+  .navbar-scrolled {
+    background-color:var(--first-alpha-color) ; /* Cambia el color de fondo según tus preferencias */
+  }
+ /* barra de busqueda scroll  */
+
+
+  .nav-acsa{
+    position:"";
+    z-index: 3;
+  
+  }
+  
+  .slider-acsa{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; 
+  
+  }
+
+
+
+  .bg1-carousel{
+    background-image: url(../images/xx.jpeg);
+    min-height: 800px;
+    background-size:cover;
+    background-position: center;
+  
+  }
+
+  .bg2-carousel{
+    background-image: url(../images/xxx2.jpeg);
+    min-height: 800px;
+    background-size:cover;
+    background-position: center;
+  }
+
+  .bg3-carousel{
+    background-image: url(../images/xxx3.jpeg);
+    min-height: 800px;
+    background-size:cover;
+    background-position: center;
+
+  }
+  
+  .productosDestacados-acsa{
+    margin-top: 800px;
+    
+  }
+
+  }
+
