@@ -84,7 +84,13 @@
   }
 
 
+  .banner-1{
+    margin-top:10px;
+  }
 
+ .productosDestacados-acsa{
+  margin-top: 10px;
+ }
   .card img{
     
     width: 150px;
@@ -130,6 +136,8 @@
 
 
 
+/* media a partir de 766px   */
+/* media a partir de 766px   */
 /* media a partir de 766px   */
 
   @media (min-width: 766px) {
@@ -274,16 +282,26 @@
 
  } */
 
+ .banner-1 {
+  margin-top: 660px;
+  background-color: rgb(25, 175, 75);
+  padding: 20px ;
+}
 
+ .card img{
+    
+  width: 250px;
+  height: auto;
+}
   
   .productosDestacados-acsa{
-    margin-top: 700px;
+    margin-top: 10px;
 
   }
 
 
   .banner-3 {
-    background-color: blue;
+    background-color: rgb(221, 133, 33);
     padding: 20px ;
   }
 
