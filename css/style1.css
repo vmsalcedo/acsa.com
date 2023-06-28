@@ -126,9 +126,26 @@
 
  
 
+/* login de cotizador  */
 
-
-
+.login-cotizador-mv{
+  background-color: orangered;
+  height: 60vh;
+  width: auto;
+  margin-top: 20px;
+  border-radius: 5%;
+}
+.login-cotizador-mv div img{
+  padding-top: 20px;
+  width: 200px;
+  border-radius: 50%;
+}
+.input-form-acsa {
+  height: 10px !important;
+}
+.input-form-acsa label {
+  position: absolute !important;
+}
 
 
 
@@ -294,7 +311,7 @@
   height: auto;
 }
   
-  .productosDestacados-acsa{
+ .productosDestacados-acsa{
     margin-top: 10px;
 
   }
@@ -304,6 +321,13 @@
     background-color: rgb(221, 133, 33);
     padding: 20px ;
   }
+
+
+  .login-cotizador{
+    background-color: orangered;
+    height: 80vh;
+  }
+
 
   }
 
